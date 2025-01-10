@@ -1,0 +1,140 @@
+<html>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 300;
+        color: #000000;
+      }
+      p {
+        margin-bottom: 10px;
+      }
+      .nav-link {
+        transition: color 0.3s;
+      }
+      .nav-link:hover {
+        color: #000000;
+      }
+
+      .custom-icon {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        margin-left: 6px;
+      }
+      .databricks-icon {
+        background-image: url("databricks-logo.png");
+      }
+      .binocular-icon {
+        background-image: url("binocular_logo.png");
+      }
+      .alchemy-icon {
+        background-image: url("alchemy_logo.jpeg");
+      }
+      .clearco-icon {
+        background-image: url("clearco_logo.jpeg");
+      }
+      .national-merit-scholar-icon {
+        background-image: url("national-merit-scholar-logo.png");
+      }
+      .project-icon {
+        background-image: url("https://placehold.co/16x16/gray/white?text=→");
+      }
+      .divider {
+        border-top: 1px solid #e5e7eb;
+        margin: 2rem 0;
+      }
+    </style>
+  </head>
+
+  <body class="bg-white max-w-2xl mx-auto px-6 py-8">
+    <nav class="flex justify-between items-center mb-12">
+      <div class="flex space-x-6 text-sm">
+        <a href="index.html" class="text-gray-400 nav-link">Neetish Sharma</a>
+        <a href="work.html" class="text-black font-medium">Work</a>
+        <a href="research.html" class="text-gray-400 nav-link">Research</a>
+      </div>
+      <div class="w-3 h-3 bg-black rounded-full"></div>
+    </nav>
+
+    <section class="space-y-8">
+      <div>
+        <h2 class="text-lg font-medium mb-4">Experience</h2>
+        <div class="space-y-4">
+          <!-- <div>
+            <div class="flex items-center text-gray-500 mb-1 text-sm">
+              <a href="https://www.databricks.com/" class="hover:underline"
+                >Databricks</a
+              >
+              <span class="custom-icon databricks-icon"></span>
+            </div>
+            <div class="text-black">Associate Product Manager</div>
+          </div> -->
+          <div>
+            <div class="flex items-center text-gray-500 mb-1 text-sm">
+              <a href="https://onbinocular.com/" class="hover:underline"
+                >Binocular</a
+              >
+              <span class="custom-icon binocular-icon"></span>
+            </div>
+            <div class="text-black">Co-Founder & CEO</div>
+          </div>
+          <div>
+            <div class="flex items-center text-gray-500 mb-1 text-sm">
+              <a href="https://www.alchemy.com/" class="hover:underline"
+                >Alchemy</a
+              >
+              <span class="custom-icon alchemy-icon"></span>
+            </div>
+            <div class="text-black">Product Engineer</div>
+          </div>
+          <div>
+            <div class="flex items-center text-gray-500 mb-1 text-sm">
+              <a href="https://clear.co/" class="hover:underline">Clearco</a>
+              <span class="custom-icon clearco-icon"></span>
+            </div>
+            <div class="text-black">Product Manager</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div>
+        <h2 class="text-lg font-medium mb-4">Honors</h2>
+        <div>
+          <div class="flex items-center text-gray-500 mb-1 text-sm">
+            <a
+              href="https://www.nationalmerit.org/s/1758/start.aspx?gid=2&pgid=61"
+              class="hover:underline"
+              >National Merit Scholarship Corporation</a
+            >
+            <span class="custom-icon national-merit-scholar-icon"></span>
+          </div>
+          <div class="text-black">National Merit Scholar</div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div>
+        <h2 class="text-lg font-medium mb-4">Languages</h2>
+        <div class="space-y-2 text-sm">
+          <div class="text-black">English</div>
+          <div class="text-black">Spanish</div>
+          <div class="text-black">Hindi</div>
+          <div class="text-black">Urdu</div>
+          <div class="text-black">Punjabi</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
